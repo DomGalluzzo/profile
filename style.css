@@ -1,0 +1,90 @@
+body {
+  background-color: #EADEDA;
+  font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+  background-color: #8A3033;
+  overflow: hidden;
+  margin: -8px;
+  padding: 5px;
+  box-shadow: 1px 1px 3px #8A3033;
+}
+
+.navbar-links {
+  list-style: none;
+  size: 50px;
+  padding: 10px;
+}
+
+.navbar-links i {
+  color: #AB9C9C;
+  zoom: 1.3;
+}
+
+.navbar-links a :visited {
+  color: #EADEDA;
+}
+
+.navbar-links :hover {
+  color: #F0E7E5;
+}
+
+.card {
+  padding: none;
+  margin: none;
+  text-align: center;
+  box-shadow: #8A3033;
+}
+
+.card {
+  border-radius: 4px;
+  box-shadow: 0px 0px 15px #E2D0CB;
+  border: 3px solid #E2D0CB;
+  margin-top: 15px;
+}
+
+.card img {
+  border-radius: 50px;
+  justify-content: center;
+}
+
+header .subheader, #about{
+  text-align: center;
+  margin: 5px;
+  padding: 3px;
+
+}
+
+.links {
+  text-align: center;
+}
+
+.card li{
+  list-style-type: none;
+  display: inline;
+  zoom: 2;
+  padding: 5px;
+  margin: 15px;
+
+}
+
+.card li a :hover {
+  color: #BF4A4E;
+}
+
+.card li :visited {
+  color: #8A3033;
+}
+
+h3.headers {
+  font-variant: small-caps;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+p.description {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  font-size: large;
+}
